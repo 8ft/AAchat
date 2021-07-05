@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 进度 -->
+  <VerticalLayout >
+    <VerticalLayout width="570" height="332" bkimage="file='uninstall_bg2.png'">
+		<HorizontalLayout float="true" pos="0,8,562,34" >
+			<Container />
+			<Button name="btnFinishedMin" width="32" height="26" normalimage="file='min.png' source='0,0,32,26'" hotimage="file='min.png' source='0,26,32,52'" pushedimage="file='min.png' source='0,52,32,78'" />
+		</HorizontalLayout>
+	<Control height="290" />
+	<Slider name="slrUnInstProgress" padding="45,0,0,0" height="3" width="480" mouse="false" foreimage="uninst_process_top.png" bkimage="uninst_process_bottom.png" thumbsize="0,0" bkcolor="#ee9797"  />
+	</VerticalLayout>
+	</VerticalLayout>	
+</Windows>

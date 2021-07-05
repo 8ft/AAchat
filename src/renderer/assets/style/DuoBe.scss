@@ -1,0 +1,96 @@
+$projectName: 'DuoBe';
+.login-wrapper {
+  .main {
+    .logo {
+      @include retinize($file: $projectName + '/logo', $important: '1')
+    }
+    //.QR-code-login {
+    //  @include retinize($file: $projectName + '/wrweima', $important: '1');
+    //  &:hover {
+    //    @include retinize($file: $projectName + '/wrweima2', $important: '1');
+    //  }
+    //}
+    //.routine-login {
+    //  @include retinize($file: $projectName + '/zhanghao', $important: '1');
+    //  &:hover {
+    //    @include retinize($file: $projectName + '/zhanghao2', $important: '1');
+    //  }
+    //}
+		/*/deep/.ant-checkbox-checked .ant-checkbox-inner{
+			background-color: #00B38B !important;
+			border-color: #00B38B !important;
+			&:hover{
+				border-color: #00B38B!important;
+			}
+		}
+		span:hover, a:hover{
+			color: #00B38B !important;
+		}*/
+  }
+	/*.clickchange{
+		span{
+			color: #00B38B !important;
+		}
+	}*/
+}
+/*
+.register-container{
+	.main{
+		.notice>a,.quickreg>span{
+			color: #00B38B !important;
+		}
+		.tabs-wrapper>span{
+			&.select{
+				color: #00B38B !important;
+				&::after{
+					background: #00B38B !important;
+				}
+			}
+		}
+	}
+}
+*/
+
+
+.winclickchange{
+	width: 293px;
+}
+
+.update, .about {
+  .logo {
+    @include retinize($file: $projectName + '/logo', $important: '1')
+  }
+}
+
+.load-net-config {
+  .bg {
+    @include retinize($file: $projectName + '/logo_load', $important: '!important')
+  }
+  .path {
+    stroke: #00b38b !important;
+  }
+}
+/*
+
+.ant-btn-primary {
+  background-color: #00B38B;
+  border-color: #00B38B;
+  &:hover, &:focus {
+    background-color: #00d5a5;
+    border-color: #00d5a5;
+  }
+}
+
+.Enter_Prised{
+	.intoPrise{
+		.priselogo{
+			background: #00B38B;
+		}
+		p{
+			span{
+				color: #00B38B;
+			}
+		}
+	}
+}
+*/

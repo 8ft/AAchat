@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+
+
+
+
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "pre Launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\runtime-build.js",
+            "env":{
+                "ENV_CONFIG":"pre",
+                "RUN_CONFIG":"dev",
+                "PROJECT_NAME":"AAchat"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Test Launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\runtime-build.js",
+            "env":{
+                "ENV_CONFIG":"test",
+                "RUN_CONFIG":"dev",
+                "PROJECT_NAME":"AAchat"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Dev Launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\runtime-build.js",
+            "env":{
+                "ENV_CONFIG":"dev",
+                "RUN_CONFIG":"dev",
+                "PROJECT_NAME":"AAchat"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Build Dev Launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\runtime-build.js",
+            "env":{
+                "ENV_CONFIG":"dev",
+                "RUN_CONFIG":"build",
+                "PROJECT_NAME":"AAchat"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "WhatChat Dev",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\runtime-build.js",
+            "env":{
+                "ENV_CONFIG":"dev",
+                "RUN_CONFIG":"dev",
+                "PROJECT_NAME":"WhatChat"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "WhatChat Pre",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\runtime-build.js",
+            "env":{
+                "ENV_CONFIG":"pre",
+                "RUN_CONFIG":"dev",
+                "PROJECT_NAME":"WhatChat"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "WhatChat Test",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\runtime-build.js",
+            "env":{
+                "ENV_CONFIG":"test",
+                "RUN_CONFIG":"dev",
+                "PROJECT_NAME":"WhatChat"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "WhatChat prod",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\runtime-build.js",
+            "env":{
+                "ENV_CONFIG":"prod",
+                "RUN_CONFIG":"dev",
+                "PROJECT_NAME":"WhatChat"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Doube prod",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\runtime-build.js",
+            "env":{
+                "ENV_CONFIG":"prod",
+                "RUN_CONFIG":"dev",
+                "PROJECT_NAME":"Duobe"
+            }
+        }
+    ]
+}

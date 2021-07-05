@@ -1,0 +1,850 @@
+{
+	"nav": {
+		"messages": "Messages",
+		"contacts": "Contacts",
+		"docs": "Docs",
+		"collect": "Favorites"
+	},
+	"docs": {
+		"sort": [
+			"By latest time",
+			"By oldest time",
+			"From large to small",
+			"From small to large"
+		],
+		"groupFile": "Group file",
+		"groupChat": "Group chat",
+		"privateChat": "Direct chat",
+		"tip": {
+			"Docs": [
+				"No chat documents",
+				"All documents in the chat are here"
+			],
+			"Tables": [
+				"No chat forms",
+				"All forms in the chat are here"
+			],
+			"Files": [
+				"No chat files",
+				"All files in the chat will are here"
+			],
+			"noFile": [
+				"No recent record",
+				"The recently used docs in {projectName} will be displayed here"
+			]
+		}
+	},
+	"banner": {
+		"banner1": {
+			"title": "Work. Together",
+			"content": "The one suite for all teams"
+		},
+		"banner2": {
+			"title": "Creation&Cloud Storage",
+			"content": "Express and share your ideas with Docs, Sheets, and Drive"
+		},
+		"banner3": {
+			"title": "Enterprise Management",
+			"content": "Have independent enterprise code to manage permissions"
+		}
+	},
+	"note": {
+		"untitledNote": "Untitled note",
+		"noNotes": "No notes",
+		"noteAddPicNumber": "Add up to {0} pictures to your notes",
+		"noteWordLength": "Only {0} words can be entered to notes"
+	},
+	"favorite": {
+		"collectionSuccess": "Favorite success",
+		"allFavorites": "All Favorites",
+		"noFavorites": [
+			"No favorites",
+			"You can add chats to favorites"
+		]
+	},
+	"about": {
+		"versionCheck": "Version check",
+		"newVerFound": "New version found",
+		"latestVersion": "It's the latest version",
+		"updateNow": "Update Now",
+		"updateFailed": [
+			"Update failed",
+			"Failed to download update file"
+		],
+		"updateClose": "Updating, sure to turn it off?",
+		"downloadTip1": "Download is too slow? You can visit our website to download update package"
+	},
+	"location":{
+		"name":"[Location]",
+		"sent":"[You sent a Location]",
+		"received":"[You received a Location. Please check via phone]",
+		"notSupport":"[Location]The current version does not support viewing this message, please check on your phone"
+	},
+	"point": {
+		"bestWishes":"Best Wishes",
+		"pointsPackets": "Points Packets",
+		"pointsAssisstant": "Points Assisstant",
+		"adminAssistant":"Admin Assistant",
+		"adminRecycle":"Admin Recycle",
+		"expiredAndReturned":"Points Packets Expired and Returned",
+		"rechargePoints":"Recharge Points",
+		"recyclePoints":"Recycle Points",
+		"returnPoints":"Return Points",
+		"paymentTime":"Payment Time",
+		"arrivalTime":"Arrival Time",
+		"recycleTime":"Recycle Time",
+		"alias":"Notice",
+		"sent":"[You sent a Point Packet]",
+		"received":"[You received a Point Packet. Please check via phone]"
+	},
+	"organization":{
+		"disabled":"The enterprise was disabled",
+		"killed":"The company was disbanded.",
+		"notifyTitle":[
+			"Enterprise member application",
+			"Notice of corporate dissolution"
+		],
+		"error":[
+			"You have sent an application to join the company to \"{organName}\", please wait patiently for the administrator to review",
+			"You have applied for this enterprise, please wait for the administrator to review"
+		],
+		"verifySwitch":[
+			"User Review",
+			"After the user review is enabled, new members cannot automatically join the company, and the administrator needs to manually review in the company management background to join the company."
+		],
+		"addLater":"Add Later",
+		"quit":"The user is not in the enterprise",
+		"noInviteRight":"No invitation permission",
+		"threadBannerText":[
+			"Let's work together",
+			"Join the group with colleagues, friends",
+			"Create Enterprise"
+		],
+		"cardTitle":[
+			"Share the link",
+			"Share QR code"
+		],
+		"code":"Enterprise Code",
+		"shareTip":[
+			"Share Enterprise Code, Members can join the group via Enterprise Code directly.",
+			"Share the link to the workgroup and quickly invite your colleagues to join.",
+			"Share enterprise code and invite members to join immediately."
+		],
+		"personalEdition":"Personal Edition",
+		"invite":"Invite",
+		"inviteFriends":"Invite friends",
+		"join_create":"Join/Create Enterprise",
+		"join":"Join",
+		"create":"Create",
+		"newOrgan":" new enterprise",
+		"joinNew":"Join new enterprise",
+		"createNew":"Create new enterprise",
+		"joinTip":"If your enterprise or group is using {projectName}, you can join with Enterprise Code or QR code, work together with members.",
+		"createTip":"You'll be the admin, you can add members, manage the organization after you create the new group."	,
+		"switch":"Change Enterprise",
+		"switchTip":"Set {name} as current enterprise",
+		"preJoin":"Are you sure to join \"{name}\"?",
+		"joined":"You're in the enterprise",
+		"switchingPersonalAccount":"Chat with friends via the personal account",
+		"overCount":"The enterprises you joined exceed the numbers",
+		"qrCode":"Enterprise QR Code",
+		"validity":[
+			"QR Code is valid for 7 days",
+			"Valid for 7 days"
+		],
+		"scanTip":"Scan the QR code by {projectName} or any tool to communicate and collaborate with me",
+		"downloadTip":"Please search for \"{projectName}\" in the app store and download",
+		"qrCodeExpired":"QR code expired",
+		"wrongCode":"Incorrect enterprise code, please check and re-enter",
+		"createFailed":"Enterprise creation failed, please try again later",
+		"copyCode":"Copied to clipboard",
+		"saveQrCode":"Saved to album",
+		"inputTip_code":"Please enter Enterprise Code",
+		"inputTip_name":"Please fill in the real company name",
+		"inputTip_complete":"Compelte enterprise information",
+		"createAndSwitch":"Create and switch new enterprise",
+		"addOrganMember":"Add Enterprise Members",
+		"addMember":"Invite friends",
+		"addLatter":"Invite Later",
+		"join_or_create":"Join or create an enterprise",
+		"aboutCode":"The company code is a 6-digit code composed of numbers, which you may get from the admin.",
+		"aboutName":"Add enterprise information, get enterprise professional service.",
+		"preInviteTip":"Call all the friends in \"{organName}\" to {projectName}!",
+		"inviting":"Invite you to join {organName}",
+		"txtForCopy":[
+			"My \"{organName}\" friends and I are waiting for you in {projectName},use this exclusive link to join us! {link}",
+			"My \"{organName}\" friends and I are waiting for you in {projectName}, use this exclusive link or six-digit enterprise code {code} to join us! {link}"
+		],
+		"inviteTip":"Invite friends to use {projectName} and share efficient mobile office."
+	},
+	"common": {
+		"sex":[
+			"Gender",
+			"Male",
+			"Female",
+			"Unset"
+		],
+		"birthday":"Birthday",
+		"manage":"manage",
+		"Manage":"Manage",
+		"mutePlay": "Mute play",
+		"failed": "Failed",
+		"declined": "Declined",
+		"review": "Review",
+		"syncing":[
+			"Syncing messages...",
+			"Syncing custom stickers,totle:{totle},done:{done}"
+		],
+		"edit":"Edit",
+		"more":"More",
+		"save":"Save",
+		"kickOutNotification": "You were removed from the enterprise",
+		"organDiedNotification": "The business has been dissolved",
+		"transcoding": "Transcoding",
+		"retry": "Retry",
+		"failedAndTryLater": "Failed, please try again later",
+		"imageLoadFailed": "Image load failed",
+		"graphicMessage": "Graphic message",
+		"filePreview": [
+			"File preview failed",
+			"The file preview is not supported",
+			"Please click upper right corner to download and check"
+		],
+		"fileSizeLimit": "Maximum file size: {0}MB",
+		"fileDownloadLimit": "File download concurrency has reached the maximum. Please try again later",
+		"fileSaveExpired": "{type} files are kept for {time} days",
+		"filePreNoSupp": "The file preview is not supported",
+		"sendFileDel": "Sending files, please delete later",
+		"loadMore": "Load more",
+		"alreadyFriends": "Already friends",
+		"videoFileTip": "This is not a valid video file",
+		"saveRoute": "Please select save route",
+		"loginInfoExpired": "Login info expired, please try again!",
+		"lostVoice": "The voice was lost",
+		"identifyLink": "Identifying the link",
+		"sendFoldNot": "Folder sending is not supported",
+		"maxToSend": "Maximum attachments to send: {number}",
+		"logoutForPc": "You’ve logged out {projectName} for PC on your phone",
+		"updateError": "Update error, please wait",
+		"downloadCompleted": "Download completed, waiting for installation",
+		"updateInstall": "Download completed and start installation",
+		"uploadImageLimitTip": [
+			"Upload image size cannot exceed {size} MB",
+			"Upload image should be JPG PNG JPEG!"
+		],
+		"updatePackageDownloading": "Update package downloading",
+		"downloading": "Downloading",
+		"downloadingLimit": "The file is being downloaded. Please try again later",
+		"fileMessageNotExist": "The messages/files do not exist",
+		"photoLoading": "Photo loading",
+		"addFriendRequest": "New friends request",
+		"alreadyExists": "{name} already exists",
+		"exiting": "Exiting",
+		"error": "Error",
+		"select": "Select",
+		"lengthOfWord": "Length",
+		"addPic": "Add picture",
+		"include": "include",
+		"saveClose": "Save & Close",
+		"modifyAvatar": "Change Avatar",
+		"IM": "I am ",
+		"modify": "Modify",
+		"selectionLimit": [
+			"The selection exceeded limits",
+			"Up to {number} members can be added"
+		],
+		"fileDownload": [
+			"Document {fileName} was downloaded"
+		],
+		"okBtn": "OK",
+		"yesBtn": "YES",
+		"restart": "Restart",
+		"updateConfigTip": "The configuration has been updated. Restarting the application immediately will take effect?",
+		"imageViewTool": [
+			"Default size",
+			"Zoom out",
+			"Zoom in",
+			"Rotate"
+		],
+		"detail": "Detail",
+		"aboutShare": [
+			"Photo shared by {name}",
+			"Video shared by {name}",
+			"File shared by {name}",
+			"Share the link"
+		],
+		"systemNotification": "System notification",
+		"offlineNotification": "Off-line notification",
+		"fileType": "File type",
+		"size": "Size",
+		"time": "Time",
+		"source": "Source",
+		"name": "Name",
+		"fileNotExist": [
+			"Video does not exist",
+			"Picture does not exist",
+			"File does not exist"
+		],
+		"confirmNow": "Confirm right now",
+		"loginManagement": "Log in to the management backend",
+		"sender": "Sender",
+		"noResultsFound": "No results found",
+		"prompt": "Prompt",
+		"copyStatus": [
+			"{0} copied"
+		],
+		"saveStatus": [
+			"Saved",
+			"Save Failed"
+		],
+		"delStatus": [
+			"Successfully deleted",
+			"Failed to delete"
+		],
+		"requesting": "Requesting",
+		"FileExpired": "File expired",
+		"aboutAccountTip": [
+			"Your account was disabled, please contact admin",
+			"Your account is disabled in the current enterprise, please contact the admin",
+			"Your account was logged in on other devices, id it's not yourself, please change your password timely",
+			"You have changed your password, please log in again!"
+		],
+		"null": "None",
+		"countPeople": "{number} people",
+		"people": " people",
+		"remove": "Remove",
+		"draft": "Draft",
+		"contactCard": "Card",
+		"play": "Play",
+		"getLatestConfigCompleted": "Already the latest configuration",
+		"uploadCompleted": "Upload completed",
+		"getLatestConfig": "Get the latest configuration",
+		"uploadLogs": "Upload log",
+		"quitApp": "Quit {projectName}",
+		"logout": "Log out",
+		"switchAccount":"Switch Account",
+		"switchConfirm":"Are you sure to log out, switch to another account?",
+		"logoutSure": "Are you confirm?",
+		"sortByTime": "Sort by time",
+		"sortByName": "Sort by name",
+		"sortBySize": "Sort by size",
+		"pleaseSelectContact": "Please select contact",
+		"selectContact": "Select contact",
+		"peopleOnline": " Online",
+		"offline": "Offline",
+		"owner": "Owner",
+		"admin": "Admin",
+		"you": "You",
+		"serviceAgreement": "Terms of Service",
+		"enter": "Enter",
+		"privacyTitle": "Privacy Policy",
+		"privacyInfo": "<p>{projectName} respects your privacy!<br>{projectName} (hereafter \"we\") respects the privacy of its users (hereafter \"you\"). In order to provide you with applications and services, we will collect some of your personal data. Please read this agreement carefully before using our services to understand how your personal information will be collected, stored, used and disclosed. We do not sell, distribute and share your personal information, your trust is the cornerstone of our success</p><h3>collect information</h3><p>Our services may require you to register for an account. When you register, we will request the use of your personal information, including your name, email address, phone number or credit card information. When you use our products, we may collect information about the products you use and learn how you use our services. We need your personal information, including your name, address, email address and phone number.<br>·Product Registration<br>·Create an account<br>·Information subscription<br>·feedback<br>·Request for service<br>·User research<br>·Information usage<br></p> <h3>We will use your personal information in the following situations:</h3><p>·Provide you with detailed information about application upgrades, services, news, emails, and improvements about our applications.<br>·Provide you with advanced service features that you may be interested in.<br>·To meet your needs, assist us in developing better products and services.<br>·Allows you to purchase and download products, including using services or accessing actions of your choice.<br>·Help you find software, service or application information quickly.<br>·With your consent, you have the right to participate in interactive features in our service.<br>·Notify you of product and service updates.<br>·We may use your information to contact you for market research.</p> <h3>Personal information security:</h3> <p>We are always committed to protecting the information security of our users. In order to prevent unauthorized access, information leakage, loss and destruction, and to ensure that the information will be used for the correct purpose, we will take corresponding measures from manual maintenance, technical and management level to ensure information security.</p>",
+		"sendSuccessfully": "Sent successfully",
+		"recall": "Recall",
+		"copy": "Copy",
+		"paste": "Paste",
+		"reply": "Reply",
+		"yesterday": "Yesterday",
+		"resend": "Resend",
+		"download": "Download",
+		"relay": "Forward",
+		"delete": "Delete",
+		"multipleSelection": "Multiple selection",
+		"clickHere": "Click here {0}",
+		"password": "Password",
+		"online": " Online",
+		"confirmBtn": "Confirm",
+		"gotIt": "Got it",
+		"exitBtn": "Cancel",
+		"tipSelectEnter": "Please choose",
+		"tipMobileEnter": "Please enter phone number",
+		"tipMobileFormatError": "Please enter the correct phone number",
+		"tipEmailEnter": "Please enter email address",
+		"tipEmailFormatError": "Please enter the correct email",
+		"tipAAidEnter": "Please enter ID",
+		"getCode": "Send",
+		"reGetCode": "Resend",
+		"tipCodeEnter": "Please enter verification code",
+		"tipCodeNoNull": "Please enter verification code",
+		"tipCodeWrong":"The verification code is incorrect, please try again",
+		"enterPwd": "Please enter password",
+		"return": "Back",
+		"complete": "Complete",
+		"next": "Next",
+		"tipPwdError": "The password is composed of 8-16 digits, letters or symbols, and contains at least 2 or more characters",
+		"tipNameError": "Alias can only be numbers/letters/Chinese",
+		"systemSetting": "System setting",
+		"systemMessage": "System information",
+		"modifyPwd": "Modify password",
+		"aboutIM": "About Us",
+		"downloadApp":"Download App",
+		"showIM": "Open {projectName}",
+		"open": "Open",
+		"folder": "Folder",
+		"exitIM": "Quit",
+		"allFriends": "All friends",
+		"myFriends": "My friends",
+		"addFriends": "Add friends",
+		"newFriends": "New friends",
+		"AAgroups": "Groups",
+		"noData": "No data",
+		"deleteFriends": "Delete friends",
+		"add": "Add",
+		"added": "Added",
+		"addFriendTip": "Please enter ID/Email/Phone number",
+		"version": "Version",
+		"update": "Update",
+		"install": "Install",
+		"mobileNumber": "Phone number",
+		"emailAddress": "Email",
+		"view": "View",
+		"all": "All",
+		"note": "Note",
+		"voice": "Voice",
+		"link": "Link",
+		"table": "Tables",
+		"file": "Files",
+		"image": "Photo",
+		"video": "Video",
+		"contacts": "Contacts",
+		"groups": "Groups",
+		"verificationCode": "Verification code",
+		"startNewGroupChat": "New Chat",
+		"myQRcode": "QR code",
+		"search": "Search",
+		"loading": "Loading",
+		"logining": "Logining",
+		"send": "Send",
+		"emoji": "Stickers",
+		"addStickers": "Add to stickers",
+		"sendFiles": "Send files",
+		"screenshot": [
+			"Screenshot",
+			"Screenshot and hide {projectName}"
+		],
+		"sendThisCard": "Send card",
+		"sendCard": "Forward contact card",
+		"sendCardTo": "Contact Card sent to",
+		"tips": "Tips",
+		"rename": "Rename",
+		"editGroupTips": "Please enter the name of the group",
+		"editGroupCheckTips": "Group name only supports Chinese/English/number",
+		"editGroupLabelCheckTips": "Group userLabel only supports Chinese/English/number",
+		"addGroup": "Add grouping",
+		"delgroup": "Delete grouping",
+		"delgroupTips": "After deleting the group, the friends in the group will be moved to ",
+		"delgroupComfirmTips": "Are you sure you want to delete the group?",
+		"moveFriendTo": "Move to",
+		"nothingTips": "There's nothing here?",
+		"recentChat": "Recent chat",
+		"addNote": "Add note",
+		"newNote":"New Note",
+		"netErrorTip": [
+			"The network is abnormal, please check the network",
+			"Network disconnected"
+		],
+		"leaveMessage": "Leave a message"
+	},
+	"kickoutDevice":{
+		"deviceName": "{userName}'s {deviceName}",
+		"exitVerification":"Exit Device Verification",
+		"native":"Native",
+		"phoneVerification":"Phone verification",
+		"emailVerification":"E-mail verification",
+		"curPhone":"Current phone number",
+		"curEmail":"Current E-mail",
+		"desc":[
+			"The log-in device management displays the status of the devices that have logged in to your account.",
+			"If you find a device that is not operated by yourself, please log off in time and change the password to protect your account security."
+		],
+		"sent":"Verification code sent to"
+	},
+	"login": {
+		"registerReviewText": [
+			"You have sent an application to join a company to \"{organName}\". Please wait patiently for the administrator to review.",
+			"The \"{organName}\" you applied to join has been rejected by the company administrator. If you have any questions, please contact the administrator.",
+			"The \"{organName}\" enterprise administrator has passed your application to join the enterprise, go and cooperate with your partner!",
+			"The \"{organName}\" you applied for failed to join,Please try to join or create an enterprise again!"
+		],
+		"confirmLogin": "Confirm Login",
+		"scanCodeFinish": "Scanned successfully, please confirm on your phone",
+		"autoLoginFailed": "Automatic login failed, please enter password to login!",
+		"inputTip1": [
+			"The input content cannot contain special symbols such as <>/, please change and try again"
+		],
+		"enterpriseCodeIncorrect": "The enterprise code is incorrect, please re-enter",
+		"refreshQRCode": "Refresh QR Code",
+		"regTip1": "Please enter the Enterprise Code, which consists of {number} digits",
+		"qrTip": "Please scan the QR code and login by {projectName}",
+		"createNewAccount": "Create new account",
+		"retrByMobile": "Retrieve by phone",
+		"retrByEmail": "Retrieve by email",
+		"loginTo": "Log in {projectName}",
+		"loginTip1": "Log in means you agree with {serviceAgreement} and {privacyTitle}",
+		"loginTip3": "Sign up means you agree with {serviceAgreement} and {privacyTitle}",
+		"loginTip2": "Sign up to agree to {serviceAgreement}",
+		"regBtn": "Agree and Register",
+		"notThisCompany": "Not this enterprise? {0}",
+		"changeCompany": "Change enterprise",
+		"enterEnterpriseCode": "Please enter enterprise code",
+		"setNickname": "Please set alias",
+		"setPassword": "Please set password",
+		"setPassword1": "Set password",
+		"quickReg": "Quick registration",
+		"returnToLogin": "Back to login",
+		"moreLoginMethods": "More login options",
+		"moreSignMethods": "More registration Options",
+		"noAccountTip": "No account yet? {0}",
+		"registerNow": "Sign up now",
+		"switchEnterprise": "Change enterprise",
+		"enterpriseCode": "Enterprise code",
+		"loginBtn": "Login",
+		"forgotPwd": "Forgot password",
+		"register": "Sign up",
+		"newregister": "Sign up",
+		"autoLogin": "Automatic Login",
+		"loginClassCode": "Scan to login",
+		"loginClassAccount": "Login by account",
+		"loginById": "Sign in with ID",
+		"loginByMobile": "Phone Number",
+		"loginByEmail": "Email"
+	},
+	"userCard": {
+		"incorrectFormat":"Incorrect format, please enter again",
+		"idWasTaken":"This ID was taken, please enter again",
+		"accountCancel": "The account was cancelled",
+		"personalInfo": "Profile",
+		"nickname": "Nickname",
+		"groupNickname": "Group alias",
+		"alias": "Alias",
+		"groups": "Groups",
+		"sendMsg": "Send meassage",
+		"addAlias": "Add alias",
+		"setGroups": "Set groups",
+		"enterAlias": "Please enter alias",
+		"deleteFriendTip": "The chat history will be cleared when you unfriend this user.",
+		"AgreefriendApplication": "Agree to a friend's application",
+		"AgreeFriendsIntoGroup": "Agree to friends into the group",
+		"qrValidTip": "The QR code is valid within 7 days, re-enter will update",
+		"changeIdTip": "ID can be composed of 6-20 letters, numbers, underscores, and minus signs. It must start with a letter (case sensitive). It does not support Chinese or just numbers settings, and cannot be modified after setting"
+	},
+	"workStatus":{
+		"entranceTxt":"Add work status...",
+		"title":"Work Status",
+		"defaultStatus":[
+			"On Leave",
+			"On a Bussiness Trip",
+			"In a Meeting",
+			"Out of Office"
+		],
+		"none":"None",
+		"custom":"Custom Work Status",
+		"input":"Fill in Work Status",
+		"setEmoji":"Set an Emoji",
+		"overCount":"You've added too much custom status, please delete and try again!",
+		"saved":"Saved",
+		"deleted":"Deleted",
+		"inputTip":"Text content (within 50 words)"
+	},
+	"setting": {
+		"loginProtection":"Login Protection",
+		"loginProtectionDesc":"After it is turned on, a second verification is required when logging in",
+		"loginProtection_bindTip":"You have not bound your mobile phone number/email address. You can use login protection after binding.",
+		"loginDevices":"Log In to Device Management",
+		"useSysLang": "Follow system language",
+		"langAndChar": "Language and characters",
+		"changeLang": "Change language",
+		"notification": "Notification",
+		"messageNotifySound": "Message notify sound",
+		"messageDesktopNotify": "Message desktop notify",
+		"setting": "Setting",
+		"security": "Security",
+		"privateKeyManagement": "Private key management",
+		"languages": "Languages",
+		"general": "General",
+		"privacy": "Privacy",
+		"addMeMethod": "Add me by",
+		"notSet": "Not set",
+		"link": "Link",
+		"changeLink": "Change",
+		"changePrivateKey": "Change",
+		"linkMobileNumber": "Link phone number",
+		"linkEmailAddress": "Link email",
+		"currentMobileNumber": "Current phone number",
+		"currentEmailAddress": "Current email",
+		"changeMobileNumber": "Change phone number",
+		"changeEmailAddress": "Change email",
+		"currentPrivateKey": "Current private key",
+		"newPrivateKey": "New private key",
+		"pkTip": "Each user will generate a unique private key and it will be stored only on the user's mobile phone. The private key mainly encrypts and decrypts messages and files through the ECC encryption algorithm.",
+		"pkTip2": "After the private key is replaced, some offline messages may not be received. If you encounter this problem, you are advised to contact the other party to resend the message."
+	},
+	"chat": {
+		"messageUnit":" messages",
+		"cardWasSent": "Card was sent",
+		"selectMutedTime": "Select muted time",
+		"addEmojiTip": [
+			"Added",
+			"Failed",
+			"Failed, cannot exceed {0}M",
+			"Failed, Maximum Custom Stickers: {0}",
+			"{successCount} stickers added successfully",
+			"{overSizeCount} stickers exceed 1M and cannot be added"
+		],
+		"allowNotifications": "Allow notifications",
+		"aite": [
+			"All",
+			"Mentioned you"
+		],
+		"sendTip": [
+			"{send}:Send，{newLine}:New Line",
+			"Please enter message",
+			"The text you entered is too long to send"
+		],
+		"blacklistOp": [
+			"Remove {name} from the blacklist?"
+		],
+		"fileBeDeleted": [
+			"The file was deleted, the record will be removed",
+			"Delete the file",
+			"Delete the file?"
+		],
+		"silencedTime": [
+			"{name} was muted by admin for {time}",
+			"You were muted by admin for {time}",
+			"{name} was unmuted by admin",
+			"You were unmuted by admin",
+			"{name} is set as speakable by admin",
+			"{name} are set as speakable by admin",
+			"{name} is removed from the speakable member by admin",
+			"{name} are removed from the speakable member by admin",
+			"Unmuted in {time}"
+		],
+		"waitOwnerPass": "@:(common.sendSuccessfully), wait for the group admin to pass",
+		"inviteFailed": "The invitation failed, the group has been enabled to prohibit members from joining",
+		"rejectMessage": "The message is sent successfully but rejected by the receiver",
+		"deleteMessageTip": [
+			"Delete this message",
+			"Delete this message?",
+			"Delete selected messages?"
+		],
+		"sendFileTip": [
+			"Send failed",
+			"Can't' send files exceeding {size}MB",
+			"Cannot send files of 0MB or exceeding {size}MB"
+		],
+		"aboutRecalledTip": [
+			"Once recalled，group members will not see this message",
+			"Recall all messages, delete the chat history on your device and his/her device irreversibly"
+		],
+		"friendVerification": [
+			"He/She has enabled Friend Confirmation, Send a friend request to chat.",
+			"I've accepted your friend request. Now let's chat!"
+		],
+		"lockGroupTip": [
+			"The group has been locked and cannot be operated temporarily",
+			"The group {name} has been locked"
+		],
+		"deleteChat": [
+			"Delete this conversation",
+			"Sure to delete this conversation?"
+		],
+		"anonymousChatFirst": "Please close anonymous chat first",
+		"personalInformation": "The other party has turned on privacy protection and cannot view personal information",
+		"removeGroupChatTip1": [
+			"The group was dismissed by the admin, conversation entry will be closed",
+			"{0}, conversation entry will be closed"
+		],
+		"groupDisbanded": [
+			"Group dismissed",
+			"Group {0} dismissed"
+		],
+		"deletedOrRecalled": "The message has been deleted or recalled",
+		"refusedToJoinGroupChat": "{name} refused to join the group chat",
+		"hujiahaoyouxianzhi": [
+			"The admin restricted adding friends among group members",
+			"The admin disabled the restriction of adding friends to group members"
+		],
+		"setGroupAdmin1": [
+			"You added {name} as group admin",
+			"You removed {name} from the group admin",
+			"You were set as group admin by the group owner",
+			"You were removed from group admin by the group owner"
+		],
+		"setGroupAdmin2": [
+			"{op} added {name} as group admin",
+			"{op} removed {name} from the group admin"
+		],
+		"removeGroupChat": [
+			"You were removed from the group chat",
+			"You removed {name} from this group chat",
+			"{op} removed {name} from this group chat"
+		],
+		"turnOffFeature": "The administrator has turned off the feature",
+		"mutteringTip1": [
+			"In the mute,this operation is invalid",
+			"The message was not sent while muting"
+		],
+		"muttering": "On mute",
+		"allMemberSilence": [
+			"The group disabled all-member mute",
+			"The group enabled all-member mute"
+		],
+		"inviteGroupChat": [
+			"{op} invited {userNames} to join the group chat",
+			"{name} join the group chat by scanning the code"
+		],
+		"changeGroupName": "{userName} modify the group name to \"{groupName}\"",
+		"transferOwner":"You were set as the group admin by {name}",
+		"openCloseAnonymousChat": [
+			"The admin turn off anonymous chat",
+			"The admin turn on anonymous chat"
+		],
+		"groupAdmin": "Admin",
+		"groupAdminPermission": "Group admin permissions",
+		"groupAdminPermissionTip0": "Group admins are permitted to:",
+		"groupAdminPermissionTip1": "Set anonymous chat",
+		"groupAdminPermissionTip2": "Set group member protection mode",
+		"groupAdminPermissionTip3": "Mute Settings",
+		"groupAdminPermissionTip4": "Group can be searched",
+		"groupAdminPermissionTip5": "Group name can be changed by members",
+		"groupAdminPermissionTip6": "Group name, group members and other permission management",
+		"groupAdminPermissionTip7": "Set group admin to review for joining the group",
+		"groupAdminTip1": "Group admins are permitted to manage the group",
+		"viewSpecificPermission": "view details",
+		"muteMode": "All memebers on mute",
+		"selectCanSendMembers": "Select members",
+		"memberCanSendMessages": "Members can send messages",
+		"selectMuteMembers": "Select mute members",
+		"memberMuteMode": "Members in Silent Mode",
+		"muteSetting": "Mute Settings",
+		"groupMemberProMode": "Group member protection mode",
+		"addGroupAdmin": "Add group admin",
+		"messagesCount": "{n} message | {n} messages",
+		"minuteAgo": "Online {n} minute ago | Online {n} minutes ago",
+		"hourAgo": "Online {n} h ago | Online {n} hs ago",
+		"hourNumber": "{n} h | {n} hs",
+		"minuteNumber": "{n} min | {n} mins",
+		"dayNumber": "{n} day | {n} days",
+		"justNow": "Just Now",
+		"groupManagement": "Group Management",
+		"noActiveThread":[
+			"No chat message yet",
+			"Chat message will be shown here"
+		],
+		"stickyOnTop": "Sticky on Top",
+		"stickyOnTopFailed": "Sticky on top failed",
+		"removeFromTop": "Remove from Top",
+		"forwardTip": [
+			"Please select messages to send",
+			"Special messages such as voice/Burn After Reading/unsent messages and expired documents cannot be forwarded",
+			"Forward success",
+			"Forward error"
+		],
+		"reEdit": "Edit",
+		"ownerAndAdmin": "The admin",
+		"withdrewMessages": [
+			"{name} recalled a message",
+			"{name} recalled all messages"
+		],
+		"recipientList": [
+			"Recipients",
+			"File Recipients"
+		],
+		"checked": "Checked",
+		"unchecked": "Unchecked",
+		"qchecked": " Checked",
+		"qunchecked": " Unchecked",
+		"allChecked": "All checked",
+		"qread": " Read",
+		"qunread": " Unread",
+		"allRead": "All Read",
+		"read": "Read",
+		"unread": "Unread",
+		"justDelMe": "Delete for me",
+		"delMeAo": "Delete for me and the other",
+		"delMeAall": "Delete for me and all",
+		"forward-one-by-one": "Forward one-by-one",
+		"combineAndForward": "Combine and forward",
+		"chatHistory": "Chat history",
+		"aboutSecurity": "All information is encrypted end-to-end",
+		"welcome": "Welcome to {projectName}",
+		"yourAAnumber": "Your ID is",
+		"welcomeText": "Tell your friends about your ID, chat anytime, anywhere",
+		"copyIDnumber": "Copy ID",
+		"chatSettings": "Chat settings",
+		"groupSettings": "Group settings",
+		"burnAfterReading": "Burn After Reading",
+		"muteNotifications": "Mute Notifications",
+		"clearHistory": "Clear Chat History",
+		"leaveGroupChat": "Delete and leave",
+		"groupMembers": "Group members",
+		"addGroupMembers": "Add group members",
+		"delGroupMembers": [
+			"Delete group members",
+			"Sure to delete the selected group members?"
+		],
+		"groupName": "Group name",
+		"tipEnterGroupName": "Please enter group name",
+		"anonymousChat": "Anonymous chat",
+		"removeChat": "Remove chat",
+		"anonymousChatTip": "When opened, an anonymous chat room will be created and all members of the team will be anonymous.",
+		"dismissGroupChat": "Dismiss group chat",
+		"prohibitNewMembersJoining": "New group members are not allowed",
+		"prohibitEditGroupName": "Stop group members to change group name",
+		"transferGroupOwnership": "Transfer group ownership",
+		"joiningGroupCheck": "Joining group needs administrator review",
+		"myNicknameInGroup": "My alias in group",
+		"dontAddMe": "Do not allow other members to add me",
+		"viewMoreMembers": "View more members",
+		"file": "Files",
+		"noFile": "No documents",
+		"noImage": "No chat picture",
+		"noVideo": "No chat video",
+		"noFileTip": "Files in chat will be saved here automatically",
+		"noImageTip": "Pictures in chat will be saved here automatically",
+		"noVideoTip": "The video in chat will be saved here automatically"
+	},
+	"search": {
+		"searchDocRes": "Search \"docs\" results: {number}",
+		"searchByFileName": "Please enter file name to search",
+		"tip": "Press the \"tab\" on keyboard to quickly switch the classification",
+		"searchFile": "Search files",
+		"searchFav": "Search favorites",
+		"moreContacts": "More contacts",
+		"moreGroups": "More groups",
+		"moreChatHistory": "More chat history",
+		"internetSearch": "Network search",
+		"noFindTips": "There's no user found, make sure the ID / phone number / email is correct",
+		"internetSearch2": "Network search ID/phone number/email",
+		"searchResult": "There's no result for \"{keyword}\", try again later",
+		"filterChatHistory": "Filter chat history",
+		"sponsor": "Sponsor",
+		"startTime": "Start time",
+		"endTime": "End Time",
+		"reset": "Reset condition",
+		"unfold": "Unfold",
+		"putAway": "Fold",
+		"xxxChatHistory": [
+			"{name}'s chat history",
+			"{name1} and {name2}'s chat history"
+		],
+		"selectSender": "Select Sender",
+		"wantToFind": "You may want to search",
+		"noResultFound": "No results found"
+	},
+	"changePwd": {
+		"resetPwd": "Reset Password",
+		"modifyPwd": "Modify password",
+		"previousPwd": "Previous password",
+		"newPwd": "New password",
+		"confirmPwd": "Confirm password",
+		"enterPrevPwd": "Please enter previous password",
+		"enterNewPwd": "Please enter new password",
+		"pwdTip": "The password is composed of 8-16 digits, letters or symbols, and contains at least 2 or more characters",
+		"pwdErr1": "The passwords are inconsistent twice, please re-enter",
+		"tip": [
+			"Password changed successfully, please log in again"
+		]
+	}
+}

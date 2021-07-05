@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<title><%= process.env.PROJECT_NAME %></title>-->
+    <% if (htmlWebpackPlugin.options.nodeModules) { %>
+    <script>
+			require('module').globalPaths.push('<%= htmlWebpackPlugin.options.nodeModules.replace(/\\/g, '\\\\') %>')
+    </script>
+    <% } %>
+</head>
+<body>
+<div id="app"></div>
+<% if (!process.browser) { %>
+<script>
+	if (process.env.NODE_ENV !== 'development') window.__static = require('path').join(__dirname).replace(/\\/g, '\\\\')
+</script>
+<% } %>
+</body>
+</html>

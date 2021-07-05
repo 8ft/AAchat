@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 完成 -->
+  <VerticalLayout >
+    <VerticalLayout width="570" height="264" bkimage="file='uninstall_bg3.png'">
+	</VerticalLayout>
+	  <HorizontalLayout float="true" pos="0,8,562,34" >
+		  <Container />
+		  <Button name="btnFinishedMin" width="32" height="26" normalimage="file='min1.png' source='0,0,32,26'" hotimage="file='min1.png' source='0,26,32,52'" pushedimage="file='min1.png' source='0,52,32,78'" />
+		  <Button name="btnClose" width="29" height="26" normalimage="file='close1.png' source='0,0,29,26'" hotimage="file='close1.png' source='0,26,29,52'" pushedimage="file='close1.png' source='0,52,29,78'" />
+	  </HorizontalLayout>
+	<VerticalLayout bkimage="file='bgbottom.png' corner='10,0,10,10'" >	
+	<Button name="btnUninstalled" padding="240,16,0,0"  normalimage="file='uninst_ok.png' source='0,0,93,32' " hotimage="file='uninst_ok.png' source='0,32,93,64'" pushedimage="file='uninst_ok.png' source='0,64,93,96'" width="93" height="32"/>
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>

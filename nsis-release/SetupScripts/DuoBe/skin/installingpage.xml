@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 进度 -->
+  <VerticalLayout >
+    <VerticalLayout width="570" height="345">
+	<ImageShow images="bg1.png bg2.png" imagecount="2" loop="true" width="570" height="345" /> 
+	</VerticalLayout>
+	  <HorizontalLayout float="true" pos="0,8,562,34" >
+		  <Container />
+		  <Button name="btnFinishedMin" width="32" height="26" normalimage="file='min.png' source='0,0,32,26'" hotimage="file='min.png' source='0,26,32,52'" pushedimage="file='min.png' source='0,52,32,78'" />
+	  </HorizontalLayout>
+	<VerticalLayout bkimage="file='bgbottom.png' corner='10,0,10,10'" >   
+	<Control height="30" />
+	<Slider name="slrProgress" padding="25,0,0,0" height="3" width="520" mouse="false" foreimage="process_top.png" bkimage="process_bottom.png" thumbsize="0,0" bkcolor="#FFD8D8D8"  />
+	</VerticalLayout>	
+	</VerticalLayout >
+</Windows>

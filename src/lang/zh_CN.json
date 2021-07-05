@@ -1,0 +1,851 @@
+{
+	"nav": {
+		"messages": "消息",
+		"contacts": "通讯录",
+		"docs": "文档",
+		"collect": "收藏"
+	},
+	"docs": {
+		"sort": [
+			"按最新时间",
+			"按最旧时间",
+			"按从大到小",
+			"按从小到大"
+		],
+		"groupFile": "群文件",
+		"groupChat": "群聊",
+		"privateChat": "单聊",
+		"tip": {
+			"Docs": [
+				"暂无聊天文档",
+				"聊天中的文档都会显示在这里"
+			],
+			"Tables": [
+				"暂无聊天表格",
+				"聊天中的表格都会显示在这里"
+			],
+			"Files": [
+				"暂无聊天文件",
+				"聊天中的文件都会显示在这里"
+			],
+			"noFile": [
+				"暂无最近使用记录",
+				"在{projectName}中最近使用过的文档都会显示在这里"
+			]
+		}
+	},
+	"banner": {
+		"banner1": {
+			"title": "一站式协作",
+			"content": "整合即时通讯、在线语音<br>云文档等功能，打造高效办公方式"
+		},
+		"banner2": {
+			"title": "创作云文档",
+			"content": "在线即时编辑，云盘多端同步<br>一键转发收藏，轻松协同创作"
+		},
+		"banner3": {
+			"title": "企业管理",
+			"content": "企业代码加入，后台数据查看<br>权限分配，提升企业办公能力"
+		}
+	},
+	"note": {
+		"untitledNote": "无标题笔记",
+		"noNotes": "还没有笔记",
+		"noteAddPicNumber": "笔记最多添加{0}张图片",
+		"noteWordLength": "笔记最多只能输入{0}个字"
+	},
+	"favorite": {
+		"collectionSuccess": "收藏成功",
+		"allFavorites": "全部收藏",
+		"noFavorites": [
+			"没有任何收藏",
+			"可以将聊天内容添加到收藏"
+		]
+	},
+	"about": {
+		"versionCheck": "版本检测",
+		"newVerFound": "发现新版本",
+		"latestVersion": "已是最新版本",
+		"updateNow": "立即更新",
+		"updateFailed": [
+			"更新失败",
+			"下载更新文件失败"
+		],
+		"updateClose": "更新在进行中，确定关闭吗？",
+		"downloadTip1": "如下载缓慢，访问官网下载安装包"
+	},
+	"location":{
+		"name":"[地理位置]",
+		"sent":"[你发送了一个位置信息]",
+		"received":"[你收到了一个位置信息，请在手机上查看]",
+		"notSupport":"[地理位置]当前版本暂不支持查看此消息，请在手机上查看"
+	},
+	"point": {
+		"bestWishes":"恭喜发财，大吉大利",
+		"pointsPackets": "积分红包",
+		"pointsAssisstant": "积分助手",
+		"adminAssistant":"管理员充值",
+		"adminRecycle":"管理员回收",
+		"expiredAndReturned":"积分红包过期退回",
+		"rechargePoints":"充值积分",
+		"recyclePoints":"回收积分",
+		"returnPoints":"退回积分",
+		"paymentTime":"支付时间",
+		"arrivalTime":"到账时间",
+		"recycleTime":"回收时间",
+		"alias":"备注",
+		"sent":"[你发送了一个积分红包]",
+		"received":"[你收到了一个积分红包，请在手机上查看]"
+	},
+	"organization":{
+		"disabled":"该企业已被禁用",
+		"killed":"该企业已解散",
+		"notifyTitle":[
+			"企业成员申请",
+			"企业解散通知"
+		],
+		"error":[
+			"你已向\"{organName}\"发送加入企业申请，请耐心等待管理员审核",
+			"你已申请过该企业，请等待管理员审核"
+		],
+		"verifySwitch":[
+			"用户审核",
+			"用户审核开启后，新成员无法自动加入企业,需要管理员在企业管理后台手动审核才能加入企业。"
+		],
+		"addLater":"稍后添加",
+		"quit":"该用户已退出企业",
+		"noInviteRight":"暂无邀请权限",
+		"threadBannerText":[
+			"开始协作吧",
+			"和同事、朋友组成团队",
+			"加入/创建企业"
+		],
+		"cardTitle":[
+			"分享链接",
+			"分享二维码"
+		],
+		"shareTip":[
+			"分享企业代码，成员加入新企业输入企业代码即可快速加入。",
+			"分享链接到工作群，快速邀请你的同事加入",
+			"分享企业代码，邀请成员即刻加入。"
+		],
+		"code":"企业代码",
+		"personalEdition":"个人版",
+		"invite":"邀请",
+		"inviteFriends":"邀请好友",
+		"join_create":"加入/创建企业",
+		"join":"加入",
+		"create":"创建",
+		"newOrgan":"新企业",
+		"joinNew":"加入新企业",
+		"createNew":"创建新企业",
+		"joinTip":"如果你的企业或组织已经使用{projectName}，可以通过企业代码或二维码加入，与成员一起沟通协作。",
+		"createTip":"新团队创建后，你将成为管理员，可添加成员、管理组织架构。",
+		"switch":"切换企业",
+		"switchTip":"将{name}设置为当前企业",
+		"preJoin":"你即将加入“{name}”，是否确定加入",
+		"joined":"你已在该企业",
+		"switchingPersonalAccount":"使用个人账号与好友交流",
+		"overCount":"你加入的企业数量已超过最大限制",
+		"qrCode":"企业二维码",
+		"validity":[
+			"二维码有效时间为7天",
+			"有效时间为7天"
+		],
+		"scanTip":"用{projectName}任意工具扫描二维码与我一起沟通协作",
+		"downloadTip":"请在应用商店中搜索“{projectName}”并下载",
+		"qrCodeExpired":"二维码已失效",
+		"wrongCode":"企业代码错误，请检查后重新输入",
+		"createFailed":"企业创建失败，请稍后再试",
+		"copyCode":"已复制到剪切板",
+		"saveQrCode":"已保存到相册",
+		"inputTip_code":"请输入企业代码",
+		"inputTip_name":"请填写真实企业名称",
+		"inputTip_complete":"完善企业信息",
+		"createAndSwitch":"创建并切换新企业",
+		"addOrganMember":"添加企业成员",
+		"addMember":"邀请好友",
+		"addLatter":"稍后邀请",
+		"join_or_create":"加入或创建企业",
+		"aboutCode":"企业代码是一个由数字组成的6位编码，可通过管理员获取。",
+		"aboutName":"补充企业信息，获取企业专业服务。",
+		"preInviteTip":"快把“{organName}”的小伙伴们都召集到{projectName}吧！",
+		"inviting":"邀请你加入，{organName}",
+		"txtForCopy":[
+			"我和“{organName}”的小伙伴都在{projectName}等你，用这个专属链接加入我们吧！{link}",
+			"我和“{organName}”的小伙伴都在{projectName}等你，用这个专属链接{link} 或6位企业代码 {code} 加入我们吧！"
+		],
+		"inviteTip":"邀请朋友同事使用{projectName}，共享高效移动办公。"
+	},
+	"common": {
+		"sex":[
+			"性别",
+			"男",
+			"女",
+			"未设置"
+		],
+		"birthday":"生日",
+		"manage":"管理",
+		"Manage":"管理",
+		"mutePlay": "静音播放",
+		"failed": "加入失败",
+		"declined": "已拒绝",
+		"review": "待审核",
+		"syncing":[
+			"同步消息中...",
+			"同步自定义表情中,共:{totle},已完成:{done}"
+		],
+		"edit":"编辑",
+		"more":"更多",
+		"save":"保存",
+		"kickOutNotification": "你已被移出该企业",
+		"organDiedNotification": "该企业已解散",
+		"transcoding": "转码中",
+		"retry": "重试",
+		"failedAndTryLater": "操作失败，请稍后再试",
+		"imageLoadFailed": "图片加载失败",
+		"graphicMessage": "图文消息",
+		"filePreview": [
+			"文件预览失败",
+			"此文件不支持预览",
+			"请点击右上角下载后查看"
+		],
+		"fileSizeLimit": "文件最大不能超过{0}MB",
+		"fileDownloadLimit":"文件下载并发量已达上限，请稍后重试",
+		"fileSaveExpired": "{type}文件保留{time}天",
+		"filePreNoSupp": "不支持该文件的预览",
+		"sendFileDel": "文件发送中,请稍后再删除",
+		"loadMore": "加载更多",
+		"alreadyFriends": "已经是好友",
+		"videoFileTip": "这不是有效的视频文件",
+		"saveRoute": "请选择保存路径",
+		"loginInfoExpired": "登录信息失效，请重新登录！",
+		"lostVoice": "此语音已丢失",
+		"identifyLink": "链接识别中",
+		"sendFoldNot": "暂不支持文件夹发送",
+		"maxToSend": "一次最多只能发送{number}个附件",
+		"logoutForPc": "你已经在手机上退出电脑{projectName}登录",
+		"updateError": "更新错误，请稍候重试",
+		"downloadCompleted": "下载完成，等待安装",
+		"updateInstall": "下载完成安装启动中",
+		"uploadImageLimitTip": [
+			"上传图片大小不能超过{size}MB",
+			"上传图片只能是 JPG PNG JPEG 格式!"
+		],
+		"updatePackageDownloading": "更新包下载中",
+		"downloading": "下载中",
+		"downloadingLimit": "文件下载中，请稍后重试",
+		"fileMessageNotExist": "消息或文件不存在",
+		"photoLoading": "图片加载中",
+		"addFriendRequest": "好友添加申请",
+		"alreadyExists": "{name}已存在",
+		"exiting": "退出中",
+		"error": "错误",
+		"select": "请选择",
+		"lengthOfWord": "字数",
+		"addPic": "添加图片",
+		"include": "包含",
+		"saveClose": "保存并关闭",
+		"modifyAvatar": "修改头像",
+		"IM": "我是",
+		"selectionLimit": [
+			"选择超过限制",
+			"群成员最多添加{number}人"
+		],
+		"fileDownload": [
+			"{fileName}已下载完成"
+		],
+		"okBtn": "确定",
+		"yesBtn": "确定",
+		"restart": "重启",
+		"updateConfigTip": "配置已更新，立即重启应用将生效变更？",
+		"imageViewTool": [
+			"原始大小",
+			"缩小",
+			"放大",
+			"旋转"
+		],
+		"detail": "详情",
+		"aboutShare": [
+			"{name}分享的图片",
+			"{name}分享的视频",
+			"{name}分享的文件《{fileName}》",
+			"分享链接"
+		],
+		"systemNotification": "系统通知",
+		"offlineNotification": "下线通知",
+		"fileType": "文件类型",
+		"size": "大小",
+		"time": "时间",
+		"source": "来源",
+		"name": "名称",
+		"fileNotExist": [
+			"视频不存在",
+			"图片不存在",
+			"文件不存在"
+		],
+		"confirmNow": "立即验证",
+		"loginManagement": "登录管理后台",
+		"sender": "发送人",
+		"noResultsFound": "未找到结果",
+		"prompt": "提示",
+		"copyStatus": [
+			"{0}复制成功"
+		],
+		"saveStatus": [
+			"保存成功",
+			"保存失败"
+		],
+		"delStatus": [
+			"删除成功",
+			"删除失败"
+		],
+		"requesting": "请求中",
+		"FileExpired": "文件已过期",
+		"aboutAccountTip": [
+			"你的账号已被禁用，请联系管理员处理",
+			"您的账号在当前企业被禁用，请联系管理员处理",
+			"您的账号在其他设备登录，如非本人操作，请及时修改密码",
+			"你已经修改密码，请重新登录！"
+		],
+		"null": "暂无",
+		"countPeople": "共{number}人",
+		"people": "人",
+		"remove": "移除",
+		"draft": "草稿",
+		"contactCard": "名片",
+		"play": "播放",
+		"getLatestConfigCompleted": "已是最新配置",
+		"uploadCompleted": "上传成功",
+		"getLatestConfig": "获取最新配置",
+		"uploadLogs": "日志上传",
+		"quitApp": "退出{projectName}",
+		"logout": "退出登录",
+		"switchAccount":"切换账号",
+		"switchConfirm":"您确定要退出,更换其他账号登录吗?",
+		"logoutSure": "确定退出吗？",
+		"sortByTime": "时间排序",
+		"sortByName": "名称排序",
+		"sortBySize": "大小排序",
+		"pleaseSelectContact": "请选择联系人",
+		"selectContact": "选择联系人",
+		"peopleOnline": "人在线",
+		"offline": "离线",
+		"owner": "群主",
+		"admin": "管理员",
+		"you": "你",
+		"serviceAgreement": "服务条款",
+		"enter": "进入",
+		"privacyTitle": "隐私政策",
+		"privacyInfo": "<p>{projectName}尊重您的隐私！<br>{projectName}（以下简称“我们”）尊重其用户的隐私（以下简称“您”）。为了提供给您应用和服务，我们会收集一些您的个人数据信息。请您在使用我们的服务前，仔细阅读本协议，了解您的个人信息将通过何种方式被收集、存储、使用和披露。我们不会售卖，分发和分享您的个人信息，您的信任是我们成功的基石</p><h3>信息收集</h3><p>我们的服务可能会要求您注册帐号。当您注册后，我们会请求使用您的个人信息，包括您的姓名，电子邮箱地址，电话号码或信用卡信息等。您使用我们产品，我们可能收集您使用产品的信息并了解您如何使用我们的服务，我们需要您的个人信息，包含您的姓名，地址，电子邮箱地址和电话号码等。<br>·产品注册<br>·创建账号<br>·信息订阅<br>·反馈建议<br>·服务请求<br>·用户调研<br>·信息使用<br></p> <h3>我们在以下情况中会使用您的个人信息：</h3><p>·为您提供有关应用程序升级，服务，新闻，电子邮件以及有关我们的应用程序改进的详细信息。<br>·为您提供您可能感兴趣的高级服务功能。<br>·为了满足您的需求，协助我们开发更好的产品和服务。<br>·允许您购买和下载产品，包含使用服务或进入您选择的操作。<br>·帮助您快速查找软件，服务或应用程序信息。<br>·当您同意后，您有权限参与我们服务中的互动功能。<br>·通知您产品和服务的更新信息。<br>·我们可能使用您的信息联系您进行市场调研。</p> <h3>个人信息安全：</h3><p>我们一直致力于保障用户的信息安全。为了防止未经授权的访问，信息泄露，丢失和破坏以及为了确保信息会用于正确用途，我们会从人工维护，技术层面和管理层面上采取相应的措施来保障信息安全。</p>",
+		"sendSuccessfully": "发送成功",
+		"recall": "撤回",
+		"copy": "复制",
+		"paste": "粘贴",
+		"reply": "回复",
+		"yesterday": "昨日",
+		"resend": "重新发送",
+		"download": "下载",
+		"relay": "转发",
+		"delete": "删除",
+		"multipleSelection": "多选",
+		"clickHere": "点此 {0}",
+		"password": "密码",
+		"online": "在线",
+		"confirmBtn": "确定",
+		"gotIt": "我知道了",
+		"exitBtn": "取消",
+		"tipMobileEnter": "请输入手机号码",
+		"tipMobileFormatError": "请输入正确的手机号码",
+		"tipEmailEnter": "请输入邮箱地址",
+		"tipEmailFormatError": "请输入正确的邮箱地址",
+		"tipAAidEnter": "请输入ID",
+		"getCode": "获取验证码",
+		"reGetCode": "重新获取",
+		"tipCodeEnter": "请输入验证码",
+		"tipCodeNoNull": "验证码不能为空",
+		"tipCodeWrong":"验证码错误，请重新输入",
+		"enterPwd": "请输入密码",
+		"return": "返回",
+		"complete": "完成",
+		"next": "下一步",
+		"tipPwdError": "密码由8-16位数字、字母或符号组成，至少含有2种以上字符。",
+		"tipNameError": "昵称只能为数字/字母/中文",
+		"systemSetting": "系统设置",
+		"systemMessage": "系统消息",
+		"modifyPwd": "修改密码",
+		"modify": "修改",
+		"showIM": "打开应用",
+		"open": "打开",
+		"folder": "文件夹",
+		"aboutIM": "关于",
+		"downloadApp":"下载手机版",
+		"exitIM": "退出应用",
+		"allFriends": "全部好友",
+		"myFriends": "我的好友",
+		"addFriends": "添加好友",
+		"newFriends": "新的好友",
+		"AAgroups": "我的群组",
+		"noData": "暂无数据",
+		"deleteFriends": "解除好友",
+		"add": "添加",
+		"added": "已添加",
+		"addFriendTip": "请输入ID/邮箱地址/手机号",
+		"version": "版本",
+		"update": "更新",
+		"install": "安装",
+		"mobileNumber": "手机号码",
+		"emailAddress": "邮箱",
+		"view": "查看",
+		"all": "全部",
+		"note": "笔记",
+		"voice": "语音",
+		"table": "表格",
+		"file": "文件",
+		"link": "链接",
+		"image": "图片",
+		"video": "视频",
+		"contacts": "联系人",
+		"groups": "群组",
+		"verificationCode": "验证码",
+		"startNewGroupChat": "发起群聊",
+		"myQRcode": "我的二维码",
+		"search": "搜索",
+		"loading": "加载中",
+		"logining": "正在登录",
+		"send": "发送",
+		"emoji": "表情",
+		"addStickers": "添加到表情",
+		"sendFiles": "发送文件",
+		"screenshot": [
+			"截图",
+			"截图并隐藏窗口"
+		],
+		"sendThisCard": "发送该名片",
+		"sendCard": "发送名片",
+		"sendCardTo": "名片发送至",
+		"tips": "提示",
+		"rename": "重命名",
+		"editGroupTips": "请输入分组的名字",
+		"editGroupCheckTips": "分组名只支持中文/英文/数字",
+		"editGroupLabelCheckTips": "群昵称只支持中文/英文/数字",
+		"addGroup": "添加分组",
+		"delgroup": "删除分组",
+		"delgroupTips": "删除分组后分组内的好友将移动至",
+		"delgroupComfirmTips": "确定删除分组？",
+		"moveFriendTo": "移动好友至",
+		"nothingTips": "这里竟然什么都没有？",
+		"recentChat": "最近聊天",
+		"addNote": "添加笔记",
+		"newNote":"新建笔记",
+		"checkVersion": "版本检测",
+		"netErrorTip": [
+			"网络异常，请检查网络",
+			"网络连接已断开"
+		],
+		"leaveMessage": "给对方留言"
+	},
+	"kickoutDevice":{
+		"deviceName": "{userName}的{deviceName}",
+		"exitVerification":"退出设备验证",
+		"native":"本机",
+		"phoneVerification":"手机验证",
+		"emailVerification":"邮箱验证",
+		"curPhone":"当前手机号",
+		"curEmail":"当前邮箱账号",
+		"desc":[
+			"登录设备管理显示登录过您账号的设备情况",
+			"若发现非本人操作的设备，请及时下线，并更改密码，以保障您的账号安全。"
+		],
+		"sent":"验证码已发送至"
+	},
+	"login": {
+		"registerReviewText": [
+			"你已向\"{organName}\"发送加入企业申请，请耐心等待管理员审核。",
+			"你申请加入的\"{organName}\"已被企业管理员拒绝，如有疑问请与管理员联系。",
+			"\"{organName}\"企业管理员已通过你加入企业申请，快去与你的伙伴协同合作吧！",
+			"你申请的\"{organName}\"加入失败，请尝试重新加入或创建企业吧！"
+		],
+		"confirmLogin": "确认登录",
+		"scanCodeFinish": "扫描成功，请使用{0}手机版确认",
+		"autoLoginFailed": "自动登录失败，请输入密码登录！",
+		"inputTip1": [
+			"输入内容不能含有<>/等特殊符号，请修改重试"
+		],
+		"enterpriseCodeIncorrect": "企业代码不正确，请重新输入",
+		"refreshQRCode": "刷新二维码",
+		"regTip1": "请输入企业代码，企业代码由{number}位数字组成",
+		"qrTip": "请使用{projectName}手机端扫描二维码",
+		"createNewAccount": "新用户注册",
+		"retrByMobile": "手机找回",
+		"retrByEmail": "邮箱找回",
+		"loginTo": "登录{projectName}",
+		"loginTip1": "登录即代表你已阅读并同意{serviceAgreement}和{privacyTitle}",
+		"loginTip3": "注册即代表你已阅读并同意{serviceAgreement}和{privacyTitle}",
+		"loginTip2": "注册即同意{serviceAgreement}",
+		"regBtn": "同意协议并注册",
+		"notThisCompany": "不是这个企业？{0}",
+		"changeCompany": "更换企业",
+		"enterEnterpriseCode": "请输入企业代码",
+		"setNickname": "请设置昵称",
+		"setPassword": "请设置密码",
+		"setPassword1": "设置密码",
+		"quickReg": "快速注册",
+		"returnToLogin": "返回登录",
+		"moreLoginMethods": "更多登录方式",
+		"moreSignMethods": "更多注册方式",
+		"noAccountTip": "还没有账号？{0}",
+		"registerNow": "立即注册",
+		"switchEnterprise": "切换企业",
+		"enterpriseCode": "企业代码",
+		"loginBtn": "登录",
+		"forgotPwd": "忘记密码",
+		"register": "新用户注册",
+		"newregister": "注册",
+		"autoLogin": "自动登录",
+		"loginClassCode": "扫码登录",
+		"loginClassAccount": "账号登录",
+		"loginById": "用户ID登录",
+		"loginByMobile": "手机号码",
+		"loginByEmail": "邮箱",
+		"loginSure": "确定"
+	},
+	"userCard": {
+		"incorrectFormat":"格式不正确，请重新填写",
+		"idWasTaken":"此ID号已被使用，请重新填写",
+		"accountCancel": "该用户已注销",
+		"personalInfo": "个人信息",
+		"nickname": "昵称",
+		"groupNickname": "群昵称",
+		"alias": "备注",
+		"groups": "分组",
+		"sendMsg": "发送消息",
+		"addAlias": "添加备注名",
+		"setGroups": "设置分组",
+		"enterAlias": "请输入备注",
+		"deleteFriendTip": "确定要解除好友关系？解除后会删除与对方的会话记录。",
+		"AgreefriendApplication": "同意好友申请",
+		"AgreeFriendsIntoGroup": "同意好友进群",
+		"qrValidTip": "该二维码7天内有效，重新进入将更新",
+		"changeIdTip":"ID可由6-20个字母、数字、下划线、减号组成，必须字母开头（区分大小写），不支持中文、纯数字设置，设置后不可修改"
+	},
+	"workStatus":{
+		"entranceTxt":"添加工作状态...",
+		"title":"工作状态",
+		"defaultStatus":[
+			"请假中",
+			"出差中",
+			"会议中",
+			"外出中"
+		],
+		"none":"无",
+		"custom":"自定义工作状态",
+		"input":"请输入你的状态",
+		"setEmoji":"选择表情",
+		"overCount":"你添加的自定义状态数量过多，请删除后再试！",
+		"saved":"保存成功",
+		"deleted":"删除成功",
+		"inputTip":"文字内容(50字以内)"
+	},
+	"setting": {
+		"loginProtection":"登录保护",
+		"loginProtectionDesc":"开启后，登录时需要进行二次验证",
+		"loginProtection_bindTip":"你还未绑定手机号/邮箱地址，绑定后才能使用登录保护。",
+		"loginDevices":"登录设备管理",
+		"useSysLang": "跟随系统语言",
+		"langAndChar": "语言与文字",
+		"changeLang": "切换语言",
+		"notification": "通知",
+		"messageNotifySound": "消息通知音",
+		"messageDesktopNotify": "消息桌面通知",
+		"setting": "设置",
+		"security": "安全",
+		"privateKeyManagement": "私钥管理",
+		"languages": "语言",
+		"general": "通用",
+		"privacy": "隐私",
+		"addMeMethod": "添加我的方式",
+		"notSet": "未设置",
+		"link": "绑定",
+		"changeLink": "换绑",
+		"changePrivateKey": "更换",
+		"linkMobileNumber": "绑定手机号码",
+		"linkEmailAddress": "绑定邮箱地址",
+		"currentMobileNumber": "当前手机号码",
+		"currentEmailAddress": "当前邮箱地址",
+		"changeMobileNumber": "更换手机号码",
+		"changeEmailAddress": "更换邮箱地址",
+		"currentPrivateKey": "当前私钥",
+		"newPrivateKey": "新私钥",
+		"pkTip": "每个用户都会生成唯一私钥并仅储存在用户手机，私钥主要通过ECC加密算法对消息和文件进行加解密。",
+		"pkTip2": "更换私钥后，可能出现部分离线消息无法接收的情况，如遇到此问题，建议联系对方重新发送消息。"
+	},
+	"chat": {
+		"messageUnit":"条",
+		"cardWasSent": "名片已发送",
+		"selectMutedTime": "选择禁言时间",
+		"addEmojiTip": [
+			"添加成功",
+			"添加失败",
+			"无法添加，大小超过{0}M",
+			"无法添加，最多支持{0}个自定义表情",
+			"{successCount}个表情添加成功",
+			"{overSizeCount}个表情超过1M,无法添加"
+		],
+		"allowNotifications": "允许消息通知",
+		"aite": [
+			"所有人",
+			"有人@我"
+		],
+		"sendTip": [
+			"{send} 发送，{newLine} 换行",
+			"不能发送空白信息",
+			"你输入的文本过长，无法发送"
+		],
+		"blacklistOp": [
+			"是否将{name}移出黑名单？"
+		],
+		"fileBeDeleted": [
+			"文件已被删除，该记录将被移除",
+			"删除该文件",
+			"是否删除该文件？"
+		],
+		"silencedTime": [
+			"{name}已被群主或群管理员禁言{time}",
+			"{name}已被群主或群管理员禁言{time}",
+			"{name}被解除禁言",
+			"{name}被解除禁言",
+			"{name}被群主或群管理员指定为可发言成员",
+			"{name}被群主或群管理员指定为可发言成员",
+			"{name}被群主或群管理员移除了可发言成员",
+			"{name}被群主或群管理员移除了可发言成员",
+			"约{time}后解除禁言"
+		],
+		"waitOwnerPass": "@:(common.sendSuccessfully)，等待群主或群管理员通过",
+		"inviteFailed": "邀请失败，该群已开启禁止成员加入",
+		"rejectMessage": "消息已发出，但被对方拒收了",
+		"deleteMessageTip": [
+			"删除该条消息",
+			"是否删除该条消息？",
+			"是否删除已选消息？"
+		],
+		"sendFileTip": [
+			"发送失败",
+			"无法发送大于{size}MB的文件",
+			"无法发送0MB或大于{size}MB的文件"
+		],
+		"aboutRecalledTip": [
+			"撤回后，群成员均看不到此消息",
+			"撤回全部聊天记录，执行后永久删除你和对方设备上的聊天记录，并不可恢复"
+		],
+		"friendVerification": [
+			"对方开启了好友验证，验证通过后才能聊天。",
+			"我通过了你的好友验证请求，现在我们可以开始聊天了"
+		],
+		"lockGroupTip": [
+			"该群已被锁定，暂时无法操作",
+			"群{name}已被锁定"
+		],
+		"deleteChat": [
+			"删除该会话",
+			"是否确定删除该会话？"
+		],
+		"anonymousChatFirst": "请先关闭匿名聊天",
+		"personalInformation": "对方开启了隐私保护，无法查看个人信息",
+		"removeGroupChatTip1": [
+			"此群已解散，会话入口将被删除",
+			"{0}，会话入口将被删除"
+		],
+		"groupDisbanded": [
+			"群已解散",
+			"群{0}已解散"
+		],
+		"deletedOrRecalled": "内容已被删除或撤回",
+		"refusedToJoinGroupChat": "{name}拒绝加入群聊",
+		"hujiahaoyouxianzhi": [
+			"群主或群管理员已开启群成员互加好友限制",
+			"群主或群管理员已关闭群成员互加好友限制"
+		],
+		"setGroupAdmin1": [
+			"你已将{name}添加为群管理员",
+			"你已将{name}从群管理员中移除",
+			"你已被群主设置为群管理员",
+			"你已被群主从群管理员中移除"
+		],
+		"setGroupAdmin2": [
+			"{op}已将{name}添加为群管理员",
+			"{op}已将{name}从群管理员中移除"
+		],
+		"removeGroupChat": [
+			"你已被移出群聊",
+			"你已将{name}移出群聊",
+			"{op}将{name}移出群聊"
+		],
+		"turnOffFeature": "管理员已关闭该功能",
+		"mutteringTip1": [
+			"禁言中，此操作无效",
+			"禁言中，消息未发送"
+		],
+		"muttering": "禁言中",
+		"allMemberSilence": [
+			"该群关闭了全员禁言",
+			"该群开启了全员禁言"
+		],
+		"inviteGroupChat": [
+			"{op}邀请{userNames}加入群聊",
+			"{name}通过扫码加入群聊"
+		],
+		"changeGroupName": "{userName}修改群名称为\"{groupName}\"",
+		"transferOwner":"你已被{name}设置为该群群主",
+		"openCloseAnonymousChat": [
+			"群主或群管理员关闭匿名聊天",
+			"群主或群管理员开启匿名聊天"
+		],
+		"groupAdmin": "群管理员",
+		"groupAdminPermission": "管理员权限",
+		"groupAdminPermissionTip0": "群管理员可以拥有以下权限：",
+		"groupAdminPermissionTip1": "设置成员匿名聊天",
+		"groupAdminPermissionTip2": "设置群成员保护模式",
+		"groupAdminPermissionTip3": "设置群内禁言",
+		"groupAdminPermissionTip4": "设置群是否可以被搜索",
+		"groupAdminPermissionTip5": "设置群成员是否可以修改群名称",
+		"groupAdminPermissionTip6": "群名称, 群成员等权限管理",
+		"groupAdminPermissionTip7": "设置入群是否需要群主或管理员审核",
+		"groupAdminTip1": "群管理员可以拥有管理群权限",
+		"viewSpecificPermission": "查看具体权限",
+		"muteMode": "全员禁言",
+		"selectCanSendMembers": "添加可发言成员",
+		"selectMuteMembers": "添加禁言成员",
+		"memberCanSendMessages": "可发言成员",
+		"memberMuteMode": "被禁成员",
+		"muteSetting": "设置群内禁言",
+		"groupMemberProMode": "群成员保护模式",
+		"addGroupAdmin": "添加群管理员",
+		"messagesCount": "{n}条信息",
+		"minuteAgo": "{n}分钟前在线",
+		"hourAgo": "{n}小时前在线",
+		"hourNumber": "{n}小时",
+		"minuteNumber": "{n}分钟",
+		"dayNumber": "{n}天",
+		"justNow": "刚刚",
+		"groupManagement": "群管理",
+		"noActiveThread":[
+			"暂无聊天消息",
+			"聊天中的消息都会显示在这里"
+		],
+		"stickyOnTop": "会话置顶",
+		"stickyOnTopFailed": "会话置顶失败",
+		"removeFromTop": "取消置顶",
+		"forwardTip": [
+			"请选择要转发的消息",
+			"语音/阅后即焚/未发出的消息与过期的文件等特殊消息不能转发",
+			"转发成功",
+			"转发失败"
+		],
+		"reEdit": "重新编辑",
+		"ownerAndAdmin": "群主或群管理员",
+		"withdrewMessages": [
+			"{name}撤回了一条消息",
+			"{name}撤回了所有消息"
+		],
+		"recipientList": [
+			"消息接收人列表",
+			"文件查收人列表"
+		],
+		"checked": "已查收",
+		"unchecked": "未查收",
+		"qchecked": "人已查收",
+		"qunchecked": "人未查收",
+		"allChecked": "全部已查收",
+		"qread": "人已读",
+		"qunread": "人未读",
+		"allRead": "全部已读",
+		"read": "已读",
+		"unread": "未读",
+		"justDelMe": "只删除我",
+		"delMeAo": "删除我和对方",
+		"delMeAall": "删除我和所有人",
+		"forward-one-by-one": "逐条转发",
+		"combineAndForward": "合并转发",
+		"chatHistory": "聊天记录",
+		"aboutSecurity": "所有的聊天消息都经过端到端加密处理",
+		"welcome": "欢迎来到{projectName}",
+		"yourAAnumber": "您的ID号为",
+		"welcomeText": "快把您的ID告诉好友，随时随地畅聊起来",
+		"copyIDnumber": "复制ID号码",
+		"chatSettings": "聊天设置",
+		"groupSettings": "群设置",
+		"burnAfterReading": "阅后即焚",
+		"muteNotifications": "消息免打扰",
+		"clearHistory": "清空聊天记录",
+		"leaveGroupChat": "退出群聊",
+		"groupMembers": "群成员",
+		"addGroupMembers": "添加群成员",
+		"delGroupMembers": [
+			"删除群成员",
+			"确定删除所选群成员？"
+		],
+		"groupName": "群名称",
+		"tipEnterGroupName": "请输入群名称",
+		"anonymousChat": "匿名聊天",
+		"removeChat": "删除会话",
+		"anonymousChatTip": "开启后将创建一个匿名聊天室，该小组的所有成员将匿名。",
+		"dismissGroupChat": "解散群组",
+		"prohibitNewMembersJoining": "禁止群成员加入",
+		"prohibitEditGroupName": "禁止群成员修改群名称",
+		"transferGroupOwnership": "转移群主",
+		"joiningGroupCheck": "加群审核",
+		"myNicknameInGroup": "我在本群的昵称",
+		"dontAddMe": "不允许其他成员添加我",
+		"viewMoreMembers": "查看更多群成员",
+		"file": "文件",
+		"noFile": "暂无文件",
+		"noImage": "暂无聊天图片",
+		"noVideo": "暂无聊天视频",
+		"noFileTip": "聊天中的文件会自动保存到这里",
+		"noImageTip": "聊天中的图片会自动保存到这里",
+		"noVideoTip": "聊天中的视频会自动保存到这里"
+	},
+	"search": {
+		"searchDocRes": "搜索“文档”结果{number}条",
+		"searchByFileName": "请输入文件名搜索",
+		"tip": "按键盘\"tab\"快速切换分类",
+		"searchFile": "搜索文件",
+		"searchFav": "搜索收藏",
+		"moreContacts": "更多联系人",
+		"moreGroups": "更多群组",
+		"moreChatHistory": "更多聊天记录",
+		"internetSearch": "网络搜索",
+		"noFindTips": "无法找到该用户，请检查ID/手机号/邮箱是否正确",
+		"internetSearch2": "网络查找ID/手机号/邮箱",
+		"searchResult": "没有找到\"{keyword}\"的结果，你可以尝试",
+		"filterChatHistory": "筛选聊天记录",
+		"sponsor": "发起人",
+		"startTime": "起始时间",
+		"endTime": "结束时间",
+		"reset": "重置条件",
+		"unfold": "展开",
+		"putAway": "收起",
+		"xxxChatHistory": [
+			"{name}群的聊天记录",
+			"{name1}和{name2}的聊天记录"
+		],
+		"selectSender": "选择发送人",
+		"wantToFind": "你可能想找",
+		"noResultFound": "没找到相关结果"
+	},
+	"changePwd": {
+		"resetPwd": "重置密码",
+		"modifyPwd": "修改密码",
+		"previousPwd": "旧密码",
+		"newPwd": "新密码",
+		"confirmPwd": "确认密码",
+		"enterPrevPwd": "请输入旧密码",
+		"enterNewPwd": "请输入新密码",
+		"pwdTip": "密码由8-16位数字、字母或符号组成，至少含有2种以上字符。",
+		"pwdErr1": "两次密码不一致，请重新输入",
+		"tip": [
+			"密码修改成功，请重新登录"
+		]
+	}
+}

@@ -1,0 +1,53 @@
+body {
+  .main-menu {
+    display: none;
+    position: absolute;
+    border-radius: 4px;
+    background: rgba(248, 248, 248, 1);
+    border: 1px solid rgba(240, 240, 240, 1);
+    // box-shadow: 0 0 15px rgba(0,0,0,.2);
+    padding: 0;
+    top: 0;
+    left: 100%;
+    max-width: 200px;
+    z-index: 100;
+  }
+  .sub-menu {
+    color: #3d3d3f;
+    font-size: 14px;
+    padding: 2px 15px;
+    cursor: default;
+    position: relative;
+    & > .label {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &.more {
+      &:after {
+        content: '';
+        display: block;
+        @include initArrow($rotate: -135deg, $color: #3d3d3f);
+        position: absolute;
+        right: 5px;
+        top: 10px;
+      }
+    }
+    &:hover {
+      background: #3b8af2;
+      color: #fff;
+      &.more {
+        &:after {
+          @include initArrow($rotate: -135deg, $color: #fff);
+        }
+      }
+      & > .main-menu {
+        display: block;
+      }
+    }
+  }
+  .right-menu {
+    display: block;
+  }
+}

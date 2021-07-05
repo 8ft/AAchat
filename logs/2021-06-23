@@ -1,0 +1,27 @@
+2021/06/23 16:55:32.140608 INFO  set maxGetHisTime = 0
+2021/06/23 16:55:32.155566 INFO  read real nodes udp map[47.114.126.214:52.8574ms]
+2021/06/23 16:55:32.155566 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 16:55:32.355575 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 16:55:32.555956 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 16:55:32.756181 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 16:55:32.961630 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 16:55:33.162093 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/23 16:58:03.754624 INFO  set maxGetHisTime = 0
+2021/06/23 16:58:03.761608 INFO  read real nodes udp map[47.114.126.214:52.8574ms]
+2021/06/23 16:58:03.762625 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 16:58:03.963066 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 16:58:04.163677 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/23 16:58:04.376150 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/23 16:58:04.576673 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/23 17:01:27.552431 INFO  set maxGetHisTime = 0
+2021/06/23 17:01:27.559403 INFO  read real nodes udp map[47.114.126.214:52.8574ms]
+2021/06/23 17:01:27.559403 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 17:01:27.759868 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 17:01:27.962049 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/23 17:01:28.172474 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/23 17:01:28.372937 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/23 17:01:28.573391 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/23 17:01:28.773441 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/23 17:01:28.973952 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/23 17:01:29.174674 INFO  get:alive=false;ready=false;length=0;duration=-3598
+2021/06/23 17:01:29.374697 INFO  get:alive=false;ready=false;length=0;duration=-3598

@@ -1,0 +1,8 @@
+2021/06/30 10:13:27.930420 INFO  set maxGetHisTime = 0
+2021/06/30 10:13:27.944380 INFO  read real nodes udp map[121.40.54.209:59.1225ms]
+2021/06/30 10:13:27.944380 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/30 10:13:28.144858 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/30 10:13:28.345377 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/30 10:13:28.545758 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/30 10:13:28.755255 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/30 10:13:28.955739 INFO  get:alive=false;ready=false;length=0;duration=-3599

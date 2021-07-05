@@ -1,0 +1,16 @@
+{
+  "CmdType": 1,
+  "Pensize": 2,
+  "DrawType": 0,
+  "TrackColor": 4292095,
+  "EditBorderColor": 16756224,
+  "Transparent": 255,
+  "SetSaveName": "AAchat_",
+  "SetMagnifierLogoText": "",
+  "SetWatermarkPictureTypeEx": "2|100|100|400|400|20",
+  "SetWatermarkPicturePath": "",
+  "SetWatermarkTextTypeEx": "2|100|100|100|40|20|0|150|30|80,55,55,55",
+  "SetWatermarkTextValue": "",
+  "MosaicType": 1,
+  "SetToolbarText": "tipRectangle|tipCircle|tipArrow|tipBrush|tipGlitter|tipMosaic|tipText|tipUndo|tipSave|tipCancel|tipFinish|1|txtPreButton|txtPreTitle|txtPreNotice1|txtPreNotice2|txtSaveTitle"
+}

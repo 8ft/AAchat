@@ -1,0 +1,66 @@
+2021/06/29 10:32:50.392896 INFO  set maxGetHisTime = 0
+2021/06/29 10:32:50.408852 INFO  read real nodes udp map[121.40.54.209:61.859ms]
+2021/06/29 10:32:50.408852 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 10:32:50.609315 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 10:32:50.809810 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 10:32:51.010601 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 10:32:51.211066 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 10:32:51.411528 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 10:32:51.611988 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 10:51:12.666165 INFO  set maxGetHisTime = 0
+2021/06/29 10:51:12.674145 INFO  read real nodes udp map[121.40.54.209:61.8334ms]
+2021/06/29 10:51:12.674145 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 10:51:12.874607 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 10:51:13.075070 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 10:51:13.281517 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 10:51:13.481567 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 10:56:36.714065 INFO  set maxGetHisTime = 0
+2021/06/29 10:56:36.721046 INFO  read real nodes udp map[121.40.54.209:61.8334ms]
+2021/06/29 10:56:36.721046 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 10:56:36.924501 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 10:56:37.129952 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 10:56:37.330414 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 10:56:37.541920 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 11:08:09.526987 INFO  set maxGetHisTime = 0
+2021/06/29 11:08:09.532989 INFO  read real nodes udp map[121.40.54.209:61.8334ms]
+2021/06/29 11:08:09.532989 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:08:09.733436 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:08:09.933897 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:08:10.134393 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 11:08:10.334583 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 11:13:26.117905 INFO  set maxGetHisTime = 0
+2021/06/29 11:13:26.124886 INFO  read real nodes udp map[121.40.54.209:61.8334ms]
+2021/06/29 11:13:26.124886 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:13:26.325350 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:13:26.526810 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:13:26.734256 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:13:26.934742 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:16:21.957175 INFO  set maxGetHisTime = 0
+2021/06/29 11:16:21.965154 INFO  read real nodes udp map[121.40.54.209:59.8629ms]
+2021/06/29 11:16:21.965154 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:16:22.165618 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 11:16:22.373032 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 11:16:22.579539 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 11:16:22.780315 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 11:19:11.341620 INFO  set maxGetHisTime = 0
+2021/06/29 11:19:11.354589 INFO  read real nodes udp map[121.40.54.209:55.8525ms]
+2021/06/29 11:19:11.354589 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:19:11.555057 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:19:11.756059 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:19:11.956728 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:19:12.157241 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 11:19:12.357671 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 11:24:34.272287 INFO  set maxGetHisTime = 0
+2021/06/29 11:24:34.280264 INFO  read real nodes udp map[121.40.54.209:58.8405ms]
+2021/06/29 11:24:34.280264 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:24:34.480729 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:24:34.682191 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:24:34.897616 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 11:24:35.098586 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 14:40:25.443348 INFO  set maxGetHisTime = 0
+2021/06/29 14:40:25.450330 INFO  read real nodes udp map[121.40.54.209:58.8405ms]
+2021/06/29 14:40:25.450330 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 14:40:25.650793 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 14:40:25.851257 INFO  get:alive=false;ready=false;length=0;duration=-3600
+2021/06/29 14:40:26.056724 INFO  get:alive=false;ready=false;length=0;duration=-3599
+2021/06/29 14:40:26.256838 INFO  get:alive=false;ready=false;length=0;duration=-3599
